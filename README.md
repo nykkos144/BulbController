@@ -1,4 +1,4 @@
 # BulbController
 
-main.cpp - ESP \n
+main.cpp - ESP  
 main.dart - Mobile App
