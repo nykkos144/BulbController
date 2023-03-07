@@ -1,11 +1,11 @@
 #include <ThingerESP8266.h>
 
-#define USERNAME "dad69"
-#define DEVICE_ID "esp8266"
-#define DEVICE_CREDENTIAL "iY#xKbSV$QoW"
+#define USERNAME "..."
+#define DEVICE_ID "..."
+#define DEVICE_CREDENTIAL "..."
 
-#define SSID "TP-LINK_186A"
-#define SSID_PASSWORD "28809616"
+#define SSID "..."
+#define SSID_PASSWORD "..."
 
 ThingerESP8266 thing(USERNAME, DEVICE_ID, DEVICE_CREDENTIAL);
 
