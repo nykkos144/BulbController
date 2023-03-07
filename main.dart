@@ -14,7 +14,7 @@ class Home extends StatelessWidget {
     await http.get(
       Uri.encodeFull("https://api.thinger.io/v2/users/dad69/devices/esp8266/On"),
       headers: {
-        'Authorization' : 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJidWxiSWQiLCJ1c3IiOiJkYWQ2OSJ9.-KqH1dgvm3kd9HLlb9h572cdnOhOGenuiSdW9HpWIrw'
+        'Authorization' : '...'
       }
     );
     print('ON');
@@ -23,7 +23,7 @@ class Home extends StatelessWidget {
     await http.get(
       Uri.encodeFull("https://api.thinger.io/v2/users/dad69/devices/esp8266/Off"),
       headers: {
-        'Authorization' : 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJidWxiSWQiLCJ1c3IiOiJkYWQ2OSJ9.-KqH1dgvm3kd9HLlb9h572cdnOhOGenuiSdW9HpWIrw'
+        'Authorization' : '...'
       }
     );
     print('OFF');
